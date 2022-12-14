@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'partslunlimited'
+          app-name: 'appservicelpartsunlimited'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9E0B22571B14E088915AFF9CB81EC00 }}
           package: .
